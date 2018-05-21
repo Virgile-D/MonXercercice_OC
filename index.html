@@ -17,7 +17,7 @@
     margin-top: 30%;
     text-align: center;
   }
-  article{
+  nav, article{
     margin: 5% auto 0 auto;
     max-width: 30%;
   }
@@ -37,19 +37,35 @@
   p:first-of-type {
     margin-left: 5%;
   }
-  p:nth-of-type(2)
-   {
+  p:nth-of-type(2) {
     text-align: justify;
   }
   p:last-of-type {
     text-align: right;
+  }
+  nav {
+    text-align: center;
+  }
+  .boutton{
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 30px;
+  }
+  .boutton:hover {
+    background-color: orange;
+    color: black;
   }
 </style>
 <body>
   <header>
     <h1>Hello World !</h1>
   </header>
-  <article>
+  <nav>
+    <input id="clickici" type="button" class="boutton" onclick="presentation()" value="Masquer la présentation">
+  </nav>
+  <article id="cachele">
     <h2>Présentation</h1>
     <img src="img/moi_mini.jpg" alt="Photo Virgile D..." title="Ma photo.">
     <p>Bonjour,</p>

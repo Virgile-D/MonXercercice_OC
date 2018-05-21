@@ -12,7 +12,7 @@ Cliquer sur le boutton 'Masquer la présentation' pour cacher l'article ou 'Affi
 <input id="clickici" type="button" class="boutton" onclick="presentation()" value="Masquer la présentation">
 ```
 
-Ainsi vous pouvez modifier l‘apparence en masquant ou affichant l’article grâce à une fonction JavaScript qui modifie la propriété CSS display de l’élément <article>.
+Ainsi vous pouvez modifier l‘apparence en masquant ou affichant l’article grâce à une fonction JavaScript qui modifie la propriété CSS display de l’élément '<article>'.
 
 ```javascript
 monarticle.style.display = 'block'; // pour afficher <article>
